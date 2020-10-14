@@ -1,19 +1,14 @@
 :root{
-    --mainColor:#eaeaea;
-    --secondaryColor:#fff;
-
-    --borderColor:#c1c1c1;
+    --mainColor:#15202B;
+    --secondaryColor:#192734;
+    --borderColor:#164D56;
     --borderColor2:#000000;
-
-    --mainText:black;
-    --secondaryText:#4b5156;
-
-    --themeDotBorder:#24292e;
-
-    --previewBg: rgba(251, 249, 243, 0.8);
-    --previewShadow:#f0ead6;
-
-    --buttonColor:black;
+    --mainText:#fff;
+    --secondaryText:#eeeeee;
+    --themeDotBorder:#FFF;
+    --previewBg: rgba(25, 39, 52, 0.8);
+    --previewShadow:#111921;
+    --buttonColor:17a2b8;
 }
 
 
@@ -186,11 +181,7 @@ u1{
 }
 
 #profile-pic {
-    -webkit-transform:rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    transform: rotate(270deg);
+
 
     display: block;
     margin: 0 auto;
@@ -231,10 +222,10 @@ u1{
 }
 
 #light-mode{
-    background-color: #fff;
+    background-color:#192734;
 }
 #blue-mode{
-    background-color: #192734;
+    background-color: #fff;#fff
 }
 #green-mode{
     background-color: #78866b;
